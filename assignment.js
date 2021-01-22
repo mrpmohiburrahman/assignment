@@ -1,3 +1,5 @@
+// https://github.com/mrpmohiburrahman/assignment
+
 function kilometerToMeter(kilometer){
     if (typeof kilometer === "undefined" ) return "Please give a value of kilometer"
     else if (typeof kilometer === "number" ){
@@ -9,6 +11,7 @@ function kilometerToMeter(kilometer){
     else if (typeof kilometer === "object" ) return "The value of kilometer can't be a object"
     else return "The value of kilometer must be a number"
 }
+
 
 function budgetCalculator(watch,phone,laptop){
     if (typeof watch === "number" && typeof phone === "number" && typeof laptop === "number"){
@@ -23,6 +26,7 @@ function budgetCalculator(watch,phone,laptop){
     }
 }
 
+
 function hotelCost(days){
     if (typeof days === "undefined" ) return "Please give a value of days"
     else if (typeof days === "number" ){
@@ -36,6 +40,7 @@ function hotelCost(days){
     else if (typeof days === "object" ) return "The value of days can't be a object"
     else return "The value of days must be a number"
 }
+
 
 
 function megaFriend(friendList){
